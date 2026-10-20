@@ -1,0 +1,36 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+.hero-copy,
+.message-copy,
+.page-intro {
+  min-width: 0;
+}
+
+/* Content remains readable even when observers or scripts are unavailable. */
+.reveal {
+  opacity: 1;
+  transform: none;
+}
+
+@media (max-width: 560px) {
+  .hero h1,
+  .message-copy h1 {
+    font-size: clamp(3rem, 12vw, 4.2rem);
+    line-height: 1.02;
+    overflow-wrap: anywhere;
+  }
+
+  .hero h1 span,
+  .message-copy h1 span {
+    display: block;
+    word-break: break-all;
+  }
+
+  .hero-text,
+  .message-copy > p {
+    font-size: 1rem;
+  }
+}

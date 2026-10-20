@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="林舟的作品与能力展示页面。">
+  <title>林舟 | 作品与能力</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23091017'/%3E%3Cpath d='M16 18h32v6H16zm0 11h24v6H16zm0 11h32v6H16z' fill='%2359e0bd'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mobile.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="works">
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>LIN ZHOU</span></a>
+    <nav class="desktop-nav" aria-label="主导航"><a href="index.html">首页</a><a class="active" href="works.html">作品与能力</a><a href="message.html">留言板</a></nav>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">菜单</button>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden><a href="index.html">首页</a><a href="works.html">作品与能力</a><a href="message.html">留言板</a></nav>
+
+  <main class="shell inner-main">
+    <header class="page-intro reveal">
+      <p class="eyebrow">SELECTED WORK</p>
+      <h1>作品与能力</h1>
+      <p>以下项目均为课程练习或虚构命题，用于展示学习过程，不涉及真实客户、商业数据或个人隐私。</p>
+    </header>
+
+    <section class="college-profiles" aria-label="代表项目">
+      <article class="profile-card reveal" id="project-one"><div class="profile-index">01</div><div><p class="eyebrow">WEB DESIGN</p><h2>校园信息导航页</h2><p>将分散的学院、专业和人数信息整理为响应式页面，通过表格锚点和学院卡片减少查找步骤。</p><div class="chips"><span>HTML</span><span>CSS</span><span>信息架构</span></div></div></article>
+      <article class="profile-card violet reveal" id="project-two"><div class="profile-index">02</div><div><p class="eyebrow">INTERACTION</p><h2>本地留言板原型</h2><p>使用 JavaScript 与 localStorage 完成化名留言、字数提示和本地清空功能，明确说明数据不会上传服务器。</p><div class="chips"><span>JavaScript</span><span>localStorage</span><span>隐私提示</span></div></div></article>
+      <article class="profile-card reveal" id="project-three"><div class="profile-index">03</div><div><p class="eyebrow">RESPONSIVE UI</p><h2>个人简介网站</h2><p>融合渐变强调、深色卡片与大留白布局，在桌面和移动端保持清晰的内容顺序和操作入口。</p><div class="chips"><span>响应式布局</span><span>可访问性</span><span>视觉层级</span></div></div></article>
+    </section>
+
+    <section class="data-section">
+      <header class="section-heading compact reveal"><div><p class="eyebrow">SKILL MAP</p><h2>能力结构</h2></div><p>以课程学习程度进行自我描述，不使用夸大的职业评价。</p></header>
+      <div class="data-table-wrap reveal">
+        <table><caption class="sr-only">个人能力结构</caption><thead><tr><th>方向</th><th>掌握内容</th><th>当前阶段</th></tr></thead><tbody><tr><th>页面结构</th><td>语义化 HTML、表格、表单、锚点导航</td><td>熟悉</td></tr><tr><th>视觉样式</th><td>CSS 布局、渐变、响应式与状态设计</td><td>持续练习</td></tr><tr><th>页面交互</th><td>原生 JavaScript、DOM、浏览器存储</td><td>基础应用</td></tr></tbody></table>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer shell"><div><strong>林舟的个人主页</strong><p>Web 页面设计课程实验</p></div><div class="student-meta"><span>制作者：林舟（化名）</span><span>学号后两位：07</span></div></footer>
+</body>
+</html>

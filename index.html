@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="林舟的个人简介课程网站，展示个人方向、能力、作品与留言板。">
+  <title>林舟 | 个人简介</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23091017'/%3E%3Cpath d='M16 18h32v6H16zm0 11h24v6H16zm0 11h32v6H16z' fill='%2359e0bd'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mobile.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="经纬校园首页">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>LIN ZHOU</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="active" href="index.html">首页</a>
+      <a href="works.html">作品与能力</a>
+      <a href="message.html">留言板</a>
+    </nav>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">菜单</button>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="移动端导航" hidden>
+    <a href="index.html">首页</a><a href="works.html">作品与能力</a><a href="message.html">留言板</a>
+  </nav>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">PERSONAL PROFILE · NO. 07</p>
+        <h1>你好，我是<br><span>林舟</span></h1>
+        <p class="hero-text">一名关注用户体验与前端实现的学生。我喜欢把复杂信息整理成清楚、好用、富有节奏的数字页面。本网站使用化名，仅展示课程学习内容。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="works.html">查看作品与能力 <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="message.html">前往留言板</a>
+        </div>
+      </div>
+      <aside class="hero-panel reveal" aria-label="网站信息摘要">
+        <div class="panel-top"><span>COURSE PROJECT</span><span class="status"><i></i>ONLINE</span></div>
+        <div class="monogram">LZ</div>
+        <dl class="quick-data">
+          <div><dt>页面</dt><dd>03</dd></div>
+          <div><dt>项目</dt><dd>03</dd></div>
+          <div><dt>学号尾号</dt><dd>07</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="ticker" aria-label="网站特点">
+      <div><span>个人简介</span><span>响应式布局</span><span>作品展示</span><span>隐私友好</span><span>本地留言演示</span></div>
+    </section>
+
+    <section class="shell feature-section">
+      <header class="section-heading reveal">
+        <div><p class="eyebrow">ABOUT ME</p><h2>保持好奇<br>也保持落地</h2></div>
+        <p>个人介绍不堆砌信息，而是用兴趣、能力与实践三个角度说明我正在成为怎样的创作者。</p>
+      </header>
+      <div class="feature-grid">
+        <article class="feature-card reveal"><span>01</span><h3>我的方向</h3><p>关注 Web 视觉设计、交互原型与前端页面实现，希望成为兼顾体验和工程的设计开发者。</p></article>
+        <article class="feature-card reveal"><span>02</span><h3>我的方法</h3><p>先理解用户任务，再建立信息层级，最后通过原型和代码验证想法是否真正清楚好用。</p></article>
+        <article class="feature-card reveal"><span>03</span><h3>我的兴趣</h3><p>喜欢摄影、界面观察和校园生活记录，这些兴趣帮助我保持对细节和真实场景的敏感。</p></article>
+      </div>
+    </section>
+
+    <section class="shell journey-section">
+      <header class="section-heading reveal">
+        <div><p class="eyebrow">EXPLORE</p><h2>了解能力，也欢迎交流</h2></div>
+      </header>
+      <div class="journey-grid">
+        <a class="journey-card college-link reveal" href="works.html">
+          <div><span>作品与能力</span><h3>查看课程项目与技能结构</h3><p>了解三个代表项目、常用工具与学习过程。</p></div><b aria-hidden="true">01 ↗</b>
+        </a>
+        <a class="journey-card message-link reveal" href="message.html">
+          <div><span>留言板</span><h3>留下对校园的建议</h3><p>使用化名，本地保存，不采集联系方式与真实身份。</p></div><b aria-hidden="true">02 ↗</b>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <div><strong>林舟的个人主页</strong><p>Web 页面设计课程实验</p></div>
+    <div class="student-meta"><span>制作者：林舟（化名）</span><span>学号后两位：07</span></div>
+  </footer>
+</body>
+</html>
